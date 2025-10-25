@@ -1,0 +1,6 @@
+ul{
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
