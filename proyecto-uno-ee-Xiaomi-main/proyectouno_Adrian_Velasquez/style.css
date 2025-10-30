@@ -1,0 +1,46 @@
+ul{
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    background-color: white;
+    color: black;
+
+
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.img{
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+}
+
+header{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: blue;
+}
