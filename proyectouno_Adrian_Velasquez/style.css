@@ -1,6 +1,73 @@
+/*
+font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+*/
+
 ul{
     text-align: center;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
 }
+body{
+    background-color: white;
+    color: black;
+    font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.img{
+    align-content: center;
+    border-radius: 20px;
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+}
+.imagenes{
+    align-items: center;
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+
+header{
+    border-radius: 10px;
+    background-color: wheat;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: blue;
+}
+
+.contenedor{
+    text-align: center;
+
+}
+
